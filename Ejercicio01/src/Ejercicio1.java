@@ -11,13 +11,14 @@ public class Ejercicio1 {
 		a=teclado.nextInt();
 		System.out.println("Ingrese el valor  b");
 		b=teclado.nextInt();
-		indice=indice+a;
-		if (a<=b){
-			while (indice<b){
-			 suma=(indice+1)+indice;
+		indice=a+1;
+	    if (a<=b){
+			while (indice<=b-1){
+			 suma=suma+indice;
 			 indice=indice+1;
 			}System.out.println(suma);
-		}else {
+		}else 
+			{
 			System.out.println("a tiene que ser menor que b");
 		}
 
