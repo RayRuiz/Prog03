@@ -1,15 +1,24 @@
-
-package ejercicio03;
 import java.util.Scanner;
-public class ejercicio03 {
+
+public class divisor {
 
 	public static void main(String[] args) {
-		Scanner teclado=new Scanner(System.in);
-		int n,
+		Scanner teclado=new Scanner (System.in);
+		int numero,indice;
 		indice=1;
-		multiplicador=0;
-		System.out.println("numero");
-		n= teclado.nextInt();
+		System.out.println("Ingrese un numero");
+		numero=teclado.nextInt();
+		while (indice<numero){
+			if(numero%indice==0){
+				System.out.println("Sus divisores son " + indice);
+
+
+			}
+
+			indice=indice+1;
+		}
+
+
 	}
 
 }
