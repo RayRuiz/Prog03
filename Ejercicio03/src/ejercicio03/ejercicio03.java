@@ -1,21 +1,23 @@
+package ejercicio03;
+
 import java.util.Scanner;
 
-public class divisor {
+public class ejercicio03 {
 
 	public static void main(String[] args) {
 		Scanner teclado=new Scanner (System.in);
-		int numero,indice;
-		indice=1;
+		int numero,divisor;
+		divisor=1;
 		System.out.println("Ingrese un numero");
 		numero=teclado.nextInt();
-		while (indice<numero){
-			if(numero%indice==0){
-				System.out.println("Sus divisores son " + indice);
+		while (divisor<numero){
+			if(numero%divisor==0){
+				System.out.println("Sus divisores son " + divisor);
 
 
 			}
 
-			indice=indice+1;
+			divisor=divisor+1;
 		}
 
 
