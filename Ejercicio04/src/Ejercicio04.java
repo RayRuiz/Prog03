@@ -20,6 +20,9 @@ public class Ejercicio04 {
 	esPrimo=numero%divisor !=0;
 	divisor++;
 	}
+	
+	
+	
 	if (esPrimo==true){
 		System.out.println("Este numero es primo");
 	}else {
